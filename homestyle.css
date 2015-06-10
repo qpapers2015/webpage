@@ -37,7 +37,7 @@ border-right:4px solid #000000;
 }
 	
 body{
-background-color:#0AF2F4;}
+background-color:#FFFFF0;}
 #intop{
 background-color:#FBFB00;
 margin:0 auto;
@@ -87,4 +87,29 @@ border-right:4px solid #000000;
 .leftside{
 float:left;
 margin-top:20px;
+}
+#quote{
+
+width:400px;
+padding:5px 5px 5px 5px;
+margin:0;
+background-color:white;
+margin-left:460px;
+margin-top:20px;
+border-bottom: 4px solid #000000;
+border-left: 4px solid #000000;
+border-top: 4px solid #000000;
+border-right:4px solid #000000;
+
+}
+
+#quote h3{
+text-align:center;
+}
+
+#quote p{
+font-family:Arial;
+font-size:125%;
+text-align:center;
+font-style:italic;
 }
