@@ -69,9 +69,10 @@ margin-left:320px;
 }
 #content {
 background-color:yellow;
-width:760px;
+width:710px;
 padding:5px 5px 5px 5px;
 margin-left:325px;
+margin-top:25px;
 font-family:Arial;
 font-weight:bold;
 font-size:110%;
