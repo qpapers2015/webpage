@@ -1,0 +1,41 @@
+h1{
+text-align:center;
+}
+
+.up{
+float:left;
+
+}
+.down{
+
+float:left;
+}
+
+.break{
+clear:both;
+}
+.box{
+height:300px;
+width:300px;
+padding:10px 10px 10px 10px;
+border-bottom: 4px solid #000000;
+border-left: 4px solid #000000;
+border-top: 4px solid #000000;
+border-right:4px solid #000000;
+margin-left:auto;
+}
+#AB{
+background-color:red;
+}
+
+#Ken{
+background-color:blue;
+}
+
+#Samota{
+background-color:green;
+}
+
+#Dnvasa{
+background-color:yellow;
+}
