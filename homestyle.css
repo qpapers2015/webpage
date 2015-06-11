@@ -6,6 +6,7 @@ a{
 color:white;;
 text-decoration:none;}
 a:hover{
+
 color:#2F4F4F;	
 background-color:#C1CDCD;
 text-decoration:underline;
@@ -15,6 +16,7 @@ li{
 ul ul{
 display:none;}
 ul li:hover > ul{
+
 display:block;}
 #top{
 width:100%;
@@ -53,11 +55,13 @@ width:30%;
 height:6em;}
 #type0{
 border-color:#ff1d8e ;
-color:white;
+color:black;
 width:250px;
 border-radius:5px;
+
 }
 #type0 li{margin:10px;
+	
 font-family:georgian;
 }
 button{
@@ -74,15 +78,16 @@ color:white;
 }
 
 #buttons{
-background-color:#FFEFD5;
+background-color:#FF3D0D;
+
 }
 #content {
 word-spacing:2px;
-
+position:relative;
 width:710px;
 padding:5px 5px 5px 5px;
-margin-left:325px;
-margin-top:25px;
+margin-left:310px;
+margin-top:20px;
 font-family:georgian;
 font-weight:italic;
 font-size:130%;
@@ -98,15 +103,16 @@ border-right:4px solid #000000;
 float:left;
 margin-top:20px;
 border-color:#ff1d8e ;
+
 }
 #quote{
-
-width:400px;
+position:relative;
+top:20px;
+left:500px;
+width:370px;
 padding:5px 5px 5px 5px;
 margin:0;
 background-color:white;
-margin-left:460px;
-margin-top:20px;
 border-bottom: 4px solid #000000;
 border-left: 4px solid #000000;
 border-top: 4px solid #000000;
@@ -116,11 +122,23 @@ border-right:4px solid #000000;
 
 #quote h3{
 text-align:center;
+padding:0;
+margin:0;
 }
 
-#quote p{
+#quotetext{
 font-family:georgian;
 font-size:125%;
 text-align:center;
 font-style:italic;
+float:center;
+}
+#quotetext p{
+padding:0;
+margin:0;
+
+}
+#body_frame{
+display:none;
+margin-top:20px;
 }
