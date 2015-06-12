@@ -1,24 +1,51 @@
+*{text-align:center;
+margin:auto;}
 H1{
 font-family:georgian;
 font-weight:bold;
+text-decoration:underline;
 }
 
 body{
-background-image:url("images/gate.jpg");
+background-COLOR:WHITE;
 background-size:100%;
 
 }
+#subjects{
+border:3px solid blue;
+text-align:center;
+width:50%;
+margin:auto;
+margin-top:20px;
+border-radius:20px;
+background-color:yellow;
+font-weight:bold;}
+#h2,h3{
+color:red;}
 
 li{
 font-size:110%;
 font-family:georgian;
 color:black;
 }
+#backgate{
+color:blue;}
 
+a{
+color:black;
+margin:5px;
+}
 a:hover{
-font-size:125%;
+font-size:115%;
 }
 
 a:visited{
-color:red;
+text-decoration:none;
+color:black;
 }
+
+ul{
+width:50%;
+border:2px solid black;
+border-radius:15px;
+background-color:#C2DFFF;}
