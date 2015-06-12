@@ -2,16 +2,16 @@
 body{background-color:black;}
 h1{
 text-align:center;
-font-family:"Franklin Gothic Medium";
+font-family:"Courier New",Arial;
 margin-top:0px;
-color:red;
+
+background-color:red;
+border-top:2px solid white;
+border-bottom:2px solid white;
 
 }
 
-#top{
-width:8em;
-height:6em;
-}
+
 
 .up{
 float:left;
@@ -26,57 +26,59 @@ float:left;
 clear:both;
 }
 .box{
-height:300px;
-width:300px;
+height:260px;
+width:260px;
 padding:10px;
 border: 4px solid #000000;
 margin-left:auto;
-
+border-radius:10px;
 }
 #AB{
-background-color:red;
+background-color:#cc0000;
+
 
 }
 #AB:hover{
-background-color:green;
-cursor: pointer;}
+background-color:#00cd00;
+cursor: pointer;
+border: 4px solid #ffffff;}
 #Ken:hover{
-background-color:yellow;
-cursor: pointer;}
+background-color:#ffff32;
+cursor: pointer;
+border: 4px solid #ffffff;}
 #Dnvasa:hover{
-background-color:blue;
-cursor: pointer;}
+background-color:#000099;
+cursor: pointer;
+border: 4px solid #ffffff;}
 #Samota:hover{
-background-color:red;
-cursor: pointer;}
+background-color:#cc0000;
+cursor: pointer;
+border: 4px solid #ffffff;}
 
 #Ken{
-background-color:blue;
-margin-left:21.5em;
+background-color:#000099;
+margin-left:23.5em;
 }
 
 #Samota{
-background-color:green;
-margin-left:21.5em;
+background-color:#00cd00;
+margin-left:23.5em;
 }
 
 #Dnvasa{
-background-color:yellow;
+background-color:#ffff32;
 }
 #AB2,#Dnvasa2,#Samota2,#Ken2{
 display:none;
-margin:0px;
-padding:0px;
-width:100%;
-height:100%;
+
 }
 img{
 width:50%;
 height:50%;
 margin:auto;}
 p{
-font-family:Papyrus;
+font-family:Papyrus, Arial;
 font-weight:bold;
 color:black;
 margin:auto;
-font-size:140%}
+font-size:120%}
