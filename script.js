@@ -19,3 +19,10 @@ document.getElementById("AboutUs").onclick=function(){
 	document.getElementById("body_frame").style.display="block";	
 	document.getElementById("body_frame").setAttribute("src","AboutUs.html");
 }
+
+document.getElementById("ContactUs").onclick=function(){
+	document.getElementById("content").style.display="none";
+	document.getElementById("quote").style.display="none";
+	document.getElementById("body_frame").style.display="block";	
+	document.getElementById("body_frame").setAttribute("src","ContactUs.html");
+}
