@@ -1,13 +1,62 @@
 body{
+margin:0;
+padding:0;
 background-image:url("images/contact_us.jpg");
 }
-div{
+
+#logo{
+float:left;
+}
+
+.logodiv{
+background-color:#7D1935;
+height:100px;
+padding:0px;
+margin:0px;
+}
+
+.logodiv img{
+float:left;
+height:100px;
+margin-left:150px;
+margin-right:250px;
+
+}
+
+#buttons button{
+width:130px;
+height:40px;
+margin-top:30px;
+background-color:#4A96AD;
+color:white;
+font-weight:bold;
+}
+
+button:visited{
+background-color:yellow;
+color:gray;
+
+}
+
+button:hover{
+cursor:pointer;
+border: 1px solid #E6E6FA;
+border-radius:8px;
+font-weight:bold;
+}
+
+.break{
+
+clear:both;}
+
+#content{
 text-align:center;
-margin-top:200px;
-background-color:#FFFFFF;
-width:400px;
 margin-left:auto;
 margin-right:auto;
+margin-top:20px;
+background-color:#FFFFFF;
+width:400px;
+
 }
 h2{
 padding:0;
@@ -16,4 +65,50 @@ margin:0;
 h4{
 margin:0;
 padding:5px;
+}
+
+#box{
+width:500px;
+margin: 0 auto;
+}
+
+#error{
+width:500px;
+height:100px;
+text-align:center;
+
+font-family:papyrus;
+
+
+}
+
+ input{
+ padding:5px;
+ width:200px;
+ margin:5px;
+ border-radius:5px;
+ font-size:1.2em;
+ border:1px solid gray;
+ }
+ 
+ label{
+ float:left;
+ padding:5px;
+ margin:5px;
+ width:150px;
+ }
+ 
+ textarea{
+ height:100px;
+ margin-left:5px;
+ width:207px;
+ border-radius:5px;
+ }
+ 
+.break{
+ clear:both;
+}
+
+#submitbutton{
+margin-left:175px;
 }
