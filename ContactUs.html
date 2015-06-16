@@ -5,11 +5,41 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link type="text/css" rel="stylesheet" href="ContactUsstyle.css"/>
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
 <BODY>
-<div id="#content">
+<div class="logodiv">
+	<div id="logo"><img src="images/logo.png"/>
+	</div>	
+	
+	<div id="buttons">
+	<button onclick="location.href='#'" id="HOME">HOME</button>
+	<button onclick="location.href='#'">SECTIONS</button>
+	<button onclick="location.href='#'" id="AboutUs">ABOUT US</button>
+	<button onclick="location.href='#'">NEWS & EVENTS</button>
+	<button onclick="location.href='#'">CONTACT US</button>
+	<button onclick="location.href='#'"id="Search">SEARCH</button>
+	</div>
+  </div>
+ <div class="break"></div>
+<div id="content">
 <h2>Team Members can be reached at:</h2>
-<h4>passhojaaoteam@gmail.com</h4>
+<h4>getsetscoreteam@gmail.com</h4>
 </div>
 
+<div class="break"></div>
+<div id="box">
+	<div id="error"></div>
+	  <form id="validation"> 
+		<label for="email">Email:</label>
+		<input name="email" id="email" />
+		
+		<label for="suggestion">Suggestion:</label>
+		<textarea></textarea>
+		
+		<input id="submitbutton" type="submit" value="Submit"/>
+	  </form>
+	</div>
+	
+<script type="text/javascript" src="script.js"></script>
 </BODY>
 </HTML>
