@@ -4,22 +4,21 @@ padding:0;
 background-image:url("images/contact_us.jpg");
 }
 
-#logo{
+ #logo{
 float:left;
 }
 
 .logodiv{
 background-color:#7D1935;
 height:100px;
-padding:0px;
-margin:0px;
 }
 
 .logodiv img{
 float:left;
 height:100px;
+width:390px;
 margin-left:150px;
-margin-right:250px;
+margin-right:150px;
 
 }
 
@@ -40,9 +39,10 @@ color:gray;
 
 button:hover{
 cursor:pointer;
-border: 1px solid #E6E6FA;
+border: 2px solid #E6E6FA;
 border-radius:8px;
 font-weight:bold;
+ box-shadow: 3px 3px 3px #E6E6FA;
 }
 
 .break{
