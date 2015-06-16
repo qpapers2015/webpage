@@ -11,6 +11,8 @@ float:left;
 text-align:center;
 font-weight:bold;
 font-size:125%;
+text-align:center;
+
 
 margin:5px;
 font-family:Papyrus;
@@ -20,14 +22,14 @@ font-family:Papyrus;
 .categories:hover{
 background-color:yellow;
 color:red;
+cursor:pointer;
 }
 
 .topic{
-text-align:center;
-line-height:125px;
-vertical-align:middle;
 }
-
+#Engineering2{
+display:none;
+}
 #hidden {
 
 list-style:none;
