@@ -1,4 +1,6 @@
-
+*{margin:0px;
+padding:0px;
+}
 body{
 background-image:url("images/bk.jpg");
 background-size:100% 200%}
